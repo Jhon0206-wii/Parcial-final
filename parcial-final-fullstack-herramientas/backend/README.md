@@ -6,7 +6,7 @@ Requisitos: Docker Desktop con contenedores Linux, Docker Compose v2 y Node.js 2
 
 Desde esta carpeta:
 
-```sh
+```sh 
 npm ci
 docker compose up -d --wait
 npm run start:dev
