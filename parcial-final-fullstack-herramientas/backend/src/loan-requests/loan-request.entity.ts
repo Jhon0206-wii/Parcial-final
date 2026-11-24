@@ -1,6 +1,8 @@
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import { ToolEntity } from "./tool.entity";
 
+export type toolId = "number"
+
 @Entity("loan_requests")
 export class LoanRequestEntity {
   @PrimaryGeneratedColumn()
